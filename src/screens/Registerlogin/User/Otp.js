@@ -43,7 +43,7 @@ function Otp() {
           keyboardType="phone-pad"
           onChangeText={onChangeOtp}
           value={otp}
-          style={tw`w-[90%] p-3 mb-4 text-center border-0 font-bold text-xl rounded-[12px] border-b-2 border-gray-400`}
+          style={tw`w-[90%] p-3 mb-4 text-black text-center border-0 font-bold text-xl rounded-[12px] border-b-2 border-gray-400`}
         />
 
         {/* <TouchableOpacity

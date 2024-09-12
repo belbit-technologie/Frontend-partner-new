@@ -14,7 +14,7 @@ function Login() {
 
   const handleLoginRedirect = () => {
     navigation.navigate('User/Register'); // Adjust the route name if needed
-  };
+  }
 
   return (
     <View style={tw`flex-1 justify-center items-center bg-black rounded  `}>
