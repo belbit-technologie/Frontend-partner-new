@@ -28,6 +28,7 @@ function MobileNumber() {
         <TextInput
           placeholder="Enter your mobile number"
           keyboardType="phone-pad"
+          placeholderTextColor="#d6dbdf"
           onChangeText={onChangePhoneNumber}
           value={phoneNumber}
           style={tw`w-[90%] p-3 text-black mb-4 text-center border-0 font-bold text-xl rounded-[12px] border-b-2 border-gray-400`}
