@@ -41,6 +41,7 @@ function Otp() {
         <TextInput
           placeholder="Enter OTP"
           keyboardType="phone-pad"
+          placeholderTextColor="#d6dbdf"
           onChangeText={onChangeOtp}
           value={otp}
           style={tw`w-[90%] p-3 mb-4 text-black text-center border-0 font-bold text-xl rounded-[12px] border-b-2 border-gray-400`}
