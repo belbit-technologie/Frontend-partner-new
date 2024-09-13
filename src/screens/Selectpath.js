@@ -9,7 +9,7 @@ function Selectpath() {
     <View
       style={tw`flex-1 justify-center items-center bg-[#000] w-full h-full`}>
       <TouchableOpacity
-        onPress={() => navigation.navigate('DrivingSchoolReg')}
+        onPress={() => navigation.navigate('School/Reg')}
         style={tw`bg-blue-500 justify-center items-center rounded-full mb-4 w-[200px] h-[200px]`} // Custom styles
       >
         <Text style={tw`text-3xl font-bold text-white text-center`}>
@@ -18,7 +18,7 @@ function Selectpath() {
       </TouchableOpacity>
 
       <TouchableOpacity
-        onPress={() => navigation.navigate('InstructorReg')}
+        onPress={() => navigation.navigate('Instructor/Reg')}
         style={tw`bg-yellow-500 justify-center items-center rounded-full mb-4 w-[200px] h-[200px]`} // Custom styles
       >
         <Text style={tw`text-3xl font-bold text-white text-center`}>

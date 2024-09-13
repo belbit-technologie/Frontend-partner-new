@@ -30,7 +30,7 @@ function MobileNumber() {
           keyboardType="phone-pad"
           onChangeText={onChangePhoneNumber}
           value={phoneNumber}
-          style={tw`w-[90%] p-3 mb-4 text-center border-0 font-bold text-xl rounded-[12px] border-b-2 border-gray-400`}
+          style={tw`w-[90%] p-3 text-black mb-4 text-center border-0 font-bold text-xl rounded-[12px] border-b-2 border-gray-400`}
         />
 
         {/* <TouchableOpacity
