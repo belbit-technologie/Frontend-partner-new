@@ -3,6 +3,7 @@ import tw from 'twrnc';
 import DocumentPicker from 'react-native-document-picker'
 import { useNavigation } from '@react-navigation/native'
 import { useState } from 'react'
+import TopHeader from '../../componant/Common/TopHeader';
 
 const NewEmp = () => {
     const navigation = useNavigation()
@@ -29,41 +30,49 @@ const NewEmp = () => {
         navigation.navigate('School/Home')
     }
 
-    return (
-        <ScrollView style={tw`flex-1 bg-white p-2`}>
+    return (<>
+        <TopHeader title="Add New Employee" />
+        <ScrollView style={tw`flex-1 bg-white p-2 pt-4`}>
             <View style={tw`justify-center items-center`}>
                 <TextInput
                     placeholder="Enter  Name"
+                    placeholderTextColor="#d6dbdf"
                     onChangeText={(text) => handleChange('name', text)}
                     style={tw`w-[90%] px-4 mb-4 bg-white text-md text-gray-800 font-bold rounded-[15px] border border-gray-300 shadow-lg`}
                 />
                 <TextInput
                     placeholder="Enter Phone Number"
+                    placeholderTextColor="#d6dbdf"
                     onChangeText={(text) => handleChange('number', text)}
                     style={tw`w-[90%] px-4 mb-4 bg-white text-md text-gray-800 font-bold rounded-[15px] border border-gray-300 shadow-lg`}
                 />
                 <TextInput
                     placeholder="Enter Email"
+                    placeholderTextColor="#d6dbdf"
                     onChangeText={(text) => handleChange('email', text)}
                     style={tw`w-[90%] px-4 mb-4 bg-white text-md text-gray-800 font-bold rounded-[15px] border border-gray-300 shadow-lg`}
                 />
                 <TextInput
                     placeholder="Enter Address"
+                    placeholderTextColor="#d6dbdf"
                     onChangeText={(text) => handleChange('address', text)}
                     style={tw`w-[90%] px-4 mb-4 bg-white text-md text-gray-800 font-bold rounded-[15px] border border-gray-300 shadow-lg`}
                 />
                 <TextInput
                     placeholder="Enter State"
+                    placeholderTextColor="#d6dbdf"
                     onChangeText={(text) => handleChange('state', text)}
                     style={tw`w-[90%] px-4 mb-4 bg-white text-md text-gray-800 font-bold rounded-[15px] border border-gray-300 shadow-lg`}
                 />
                 <TextInput
                     placeholder="Enter City"
+                    placeholderTextColor="#d6dbdf"
                     onChangeText={(text) => handleChange('city', text)}
                     style={tw`w-[90%] px-4 mb-4 bg-white text-md text-gray-800 font-bold rounded-[15px] border border-gray-300 shadow-lg`}
                 />
                 <TextInput
                     placeholder="Enter PinCode"
+                    placeholderTextColor="#d6dbdf"
                     onChangeText={(text) => handleChange('pincode', text)}
                     style={tw`w-[90%] px-4 mb-4 bg-white text-md text-gray-800 font-bold rounded-[15px] border border-gray-300 shadow-lg`}
                 />
@@ -79,6 +88,8 @@ const NewEmp = () => {
                 </TouchableOpacity>
             </View >
         </ScrollView>
+    </>
+
     )
 }
 export default NewEmp

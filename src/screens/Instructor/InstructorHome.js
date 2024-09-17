@@ -23,8 +23,8 @@ const InstructorHome = () => {
             <AntDesign name="arrowleft" color="black" size={20} />
           </TouchableOpacity> */}
           <View style={tw`py-1 px-3`}>
-            <Text style={tw`text-lg font-bold`}>Shnauj Yadav</Text>
-            <Text style={tw`text-sm font-sm`}>
+            <Text style={tw`text-lg text-black font-bold`}>Shnauj Yadav</Text>
+            <Text style={tw`text-sm font-sm text-black`}>
               <Entypo name="location-pin" color="black" size={15} />
               Bareilly</Text>
           </View>
@@ -32,10 +32,7 @@ const InstructorHome = () => {
         <TouchableOpacity onPress={() => navigation.navigate("Instructor/Profile")} style={tw`flex-row items-center`}>
           <Entypo name="user" color="black" size={20} />
         </TouchableOpacity>
-
-
       </View>
-      
       <View>
       </View>
     </>

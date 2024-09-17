@@ -11,15 +11,15 @@ const TopHeader = ({ title }) => {
     }
 
     const handleProfilePress = () => {
-        // navigation.navigate('Profile')
+        // navigation.navigate ('Profile')
     }
 
-    return (
+    return (   
         <View style={tw`flex-row items-center justify-between h-12 px-4 bg-white border-b border-gray-200`}>
             <TouchableOpacity onPress={handleBackPress} style={tw`flex-row items-center`}>
                 <Icon name="arrowleft" color="black" size={20} />
             </TouchableOpacity>
-            <Text style={tw`text-xl font-bold`}>{title}</Text>
+            <Text style={tw`text-xl font-semibold text-black`}>{title}</Text>
             <TouchableOpacity onPress={handleProfilePress} style={tw`flex-row items-center`}>
             </TouchableOpacity>
         </View>
