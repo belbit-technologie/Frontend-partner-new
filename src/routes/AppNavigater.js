@@ -21,6 +21,8 @@ import NewEmp from '../screens/School/NewEmp';
 import SchoolReg from '../screens/School/SchoolReg';
 import EmpProfile from '../screens/School/EmpProfile';
 import Profile from '../screens/Instructor/Profile';
+import EmpList from '../screens/School/EmpList';
+import RideHistory from '../screens/School/Ride/RideHistory'
 
 const Stack = createNativeStackNavigator();
 
@@ -33,13 +35,16 @@ function AppNavigater() {
       <Stack.Screen name="Logo" component={Logo} />
       <Stack.Screen name="MobileNumber" component={MobileNumber} />
       <Stack.Screen name="Otp" component={Otp} />
-      
+
       <Stack.Screen name="Selectpath" component={Selectpath} />
 
       <Stack.Screen name="School/Reg" component={SchoolReg} />
       <Stack.Screen name="School/Home" component={SchoolHome} />
-      <Stack.Screen name="School/EmpProfile" component={EmpProfile} />
       <Stack.Screen name="School/NewEmp" component={NewEmp} />
+      <Stack.Screen name="School/EmpList" component={EmpList} />
+      <Stack.Screen name="School/EmpProfile" component={EmpProfile} />
+      <Stack.Screen name="School/Ride/RideHistory" component={RideHistory} />
+
 
       <Stack.Screen name="Instructor/Reg" component={InstructorReg} />
       <Stack.Screen name="Instructor/Home" component={InstructorHome} />

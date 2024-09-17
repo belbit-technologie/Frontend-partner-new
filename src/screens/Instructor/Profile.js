@@ -30,7 +30,7 @@ const Profile = () => {
                                     style={tw`flex-row items-center mr-3`}>
                                     <AntDesign name="user" color="black" size={20} />
                                 </View>
-                                <Text style={tw`text-lg`}>Shnauj Yadav</Text>
+                                <Text style={tw`text-lg text-black`}>Shnauj Yadav</Text>
                             </View>
                             <TouchableOpacity style={tw`flex-row items-center`}>
                                 <AntDesign name="edit" color="black" size={20} />
@@ -41,7 +41,7 @@ const Profile = () => {
                                 <View style={tw`flex-row items-center mr-3`}>
                                     <AntDesign name="mail" color="black" size={20} />
                                 </View>
-                                <Text style={tw`text-lg`}>shanujyadav@gmail.com</Text>
+                                <Text style={tw`text-lgm text-black`}>shanujyadav@gmail.com</Text>
                             </View>
                             <TouchableOpacity style={tw`flex-row items-center`}>
                                 <AntDesign name="edit" color="black" size={20} />
@@ -52,7 +52,7 @@ const Profile = () => {
                                 <View style={tw`flex-row items-center mr-3`}>
                                     <AntDesign name="phone" color="black" size={20} />
                                 </View>
-                                <Text style={tw`text-lg`}>+91 9528492010</Text>
+                                <Text style={tw`text-lg text-black`}>+91 9528492010</Text>
                             </View>
                             <TouchableOpacity style={tw`flex-row items-center`}>
                                 <AntDesign name="edit" color="black" size={20} />
@@ -63,7 +63,7 @@ const Profile = () => {
                                 <View style={tw`flex-row items-center mr-3`}>
                                     <Entypo name="location-pin" color="black" size={20} />
                                 </View>
-                                <Text style={tw`text-lg`}>Bareilly,India</Text>
+                                <Text style={tw`text-lg text-black`}>Bareilly,India</Text>
                             </View>
                             <TouchableOpacity style={tw`flex-row items-center`}>
                                 <AntDesign name="edit" color="black" size={20} />
@@ -76,7 +76,7 @@ const Profile = () => {
                                 <View style={tw`flex-row items-center mr-3`}>
                                     <AntDesign name="logout" color="black" size={20} />
                                 </View>
-                                <Text style={tw`text-lg`}>Log Out</Text>
+                                <Text style={tw`text-lg text-black`}>Log Out</Text>
                             </View>
                         </TouchableOpacity>
                     </View>
