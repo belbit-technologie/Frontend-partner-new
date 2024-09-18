@@ -8,7 +8,6 @@ import TopHeader from '../../componant/Common/TopHeader';
 const EmpList = () => {
     const navigation = useNavigation()
 
-
     const ListItem = ({ name, phone, onPress }) => (
         <TouchableOpacity onPress={onPress} style={tw`p-1 bg-green-400 my-2 rounded-lg px-4 text-right`}>
             <Text style={tw`text-lg font-bold text-black`}>{name}</Text>
